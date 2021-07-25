@@ -1,0 +1,693 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer{
+    margin-top: 100px;
+    background-color: #003638;
+    text-align: center;
+    padding: 10px;
+    color: #53B8BB;
+}
+#container1{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/foster/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 41, 41);
+    height: 10vh;
+    padding: 30px;
+
+
+    
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+   
+
+
+}
+.nav-item{
+    list-style: none;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navlink{
+    text-decoration: none;
+    color: #F3F2C9;
+}
+.navlink:hover{
+    font-size: 1rem;
+    transition: ease-in-out 299ms;
+    text-decoration: underline;
+    color: #53B8BB;
+}
+
+/* Screen1 */
+.foster{
+    background-color: whitesmoke;
+    padding: 60px;
+    width: 700px;    
+    position: absolute;
+    right: 0;
+    top: 30%;
+    border-radius: 80px 0 0 80px;
+    
+}
+
+.foster h1{
+    font-size: 2.5rem; 
+    color: #055052;
+    font-weight: bold;
+    padding: 20px;
+}
+.foster p{
+    font-size: 1rem;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* SECTION2 */
+
+#container2{
+    height: 100vh;
+    background: rgb(236, 227, 217);
+    padding: 5px;
+    text-align: center;
+}
+.text{
+    margin: 20px;
+}
+.text h1{
+    margin: 20px;
+    color: #003638;
+    font-size: 2rem;
+    
+}
+.text p{
+    font-size: 1rem;
+    color: black;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.about h1{
+    margin: 20px;
+    border-bottom: solid 3px whitesmoke;
+}
+.box1{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+
+
+.box2{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img2.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+.box3{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img3.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+.box4{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+
+.box1:hover ,.box2:hover , .box3:hover ,.box4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* SECTION3 DOGS */
+#container3{
+    height: 100vh;
+    padding: 10px;
+    background: rgb(236, 227, 217);
+}
+#container3 h1{
+    font-size: 3rem;
+    color: #003638;
+    
+}
+#container3 h3{
+    font-size: 1.5rem;
+    color: #003638;
+}
+#container3 p{
+    line-height: 1.4;
+}
+#container3 a{
+    text-decoration: none;
+
+}
+
+.dogdiv1 ,.dogdiv2{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #003638;
+    
+}
+.doginfo1, .doginfo2{
+    flex: 1;
+    text-align: left;
+    padding: 60px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: whitesmoke;
+}
+.dogimg1 {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/dogo/dog1.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+
+
+.dogimg2{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/dogo/dog2.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    
+}
+.btn-adopt{
+    border: 4px solid #055052;
+    color: white;
+    background-color: #055052;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 #003638;
+    transition: ease 299ms;
+}
+.btn-adopt:hover{
+    box-shadow: inset 0 200px  200px 0 #003638;
+    font-weight: bold;
+}
+
+/* SECTION4 DOGS */
+
+#container4{
+    height: 100vh;
+    padding: 10px;
+    background: rgb(236, 227, 217);
+}
+#container4 h1{
+    font-size: 3rem;
+    color: #003638;
+    
+}
+#container4 h3{
+    font-size: 1.5rem;
+    color: #003638;
+}
+#container4 p{
+    line-height: 1.4;
+}
+#container4 a{
+    text-decoration: none;
+
+}
+
+.dogdiv3 ,.dogdiv4{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #003638;
+    
+}
+.doginfo3, .doginfo4{
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: whitesmoke;
+}
+.dogimg3 {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/dogo/dog3.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+
+
+.dogimg4{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/dogo/dog4.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    
+}
+.btn-adopt{
+    border: 4px solid #055052;
+    color: white;
+    background-color: #055052;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 #003638;
+    transition: ease 299ms;
+}
+.btn-adopt:hover{
+    box-shadow: inset 0 200px  200px 0 #003638;
+    font-weight: bold;
+}
+
+/* SECTION5 CATS */
+#container5{
+    height: 100vh;
+    padding: 10px;
+    background: rgb(236, 227, 217);
+}
+#container5 h1{
+    font-size: 3rem;
+    color: #003638;
+    
+}
+#container5 h3{
+    font-size: 1.5rem;
+    color: #003638;
+}
+#container5 p{
+    line-height: 1.4;
+}
+#container5 a{
+    text-decoration: none;
+
+}
+
+.catdiv1 ,.catdiv2{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #003638;
+    background-color: whitesmoke;
+    
+}
+.catinfo1, .catinfo2{
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-color: whitesmoke;
+}
+.catimg1 {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Alice.jpeg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+
+
+.catimg2{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Blur.jpeg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+.btn-adopt{
+    border: 4px solid #055052;
+    color: whitesmoke;
+    background-color: #055052;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 #003638;
+    transition: ease 299ms;
+}
+.btn-adopt:hover{
+    box-shadow: inset 0 200px  200px 0 #003638;
+    font-weight: bold;
+}
+
+/* SECTION6 CATS */
+#container6{
+    height: 100vh;
+    padding: 10px;
+    background: rgb(236, 227, 217);
+}
+#container6 h1{
+    font-size: 3rem;
+    color: #003638;
+    
+}
+#container6 h3{
+    font-size: 1.5rem;
+    color: #003638;
+}
+#container6 p{
+    line-height: 1.4;
+}
+#container6 a{
+    text-decoration: none;
+
+}
+
+.catdiv3 ,.catdiv4{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #003638;
+    background-color: whitesmoke;
+    
+}
+.catdiv3 p{
+    font-size: 13px;
+    line-height: 1;
+}
+.catinfo3, .catinfo4{
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-color: whitesmoke;
+}
+.catimg3 {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Espi.jpeg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+
+
+.catimg4{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Looci.jpeg");
+    background-position: inherit;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+.btn-adopt{
+    border: 4px solid #055052;
+    color: whitesmoke;
+    background-color: #055052;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 #003638;
+    transition: ease 299ms;
+}
+.btn-adopt:hover{
+    box-shadow: inset 0 200px  200px 0 #003638;
+    font-weight: bold;
+}
+
+/* SECTION7 CATS */
+#container7{
+    height: 100vh;
+    padding: 10px;
+    background: rgb(236, 227, 217);
+}
+#container7 h1{
+    font-size: 3rem;
+    color: #003638;
+    
+}
+#container7 h3{
+    font-size: 1.5rem;
+    color: #003638;
+}
+#container7 p{
+    line-height: 1.4;
+}
+#container7 a{
+    text-decoration: none;
+
+}
+
+.catdiv5 ,.catdiv6{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #003638;
+    background-color: whitesmoke;
+    
+}
+.catdiv6 p{
+    line-height: 1;
+    font-size: 12px;
+}
+
+.catinfo5, .catinfo6{
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-color: whitesmoke;
+}
+.catimg5 {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Satoshi.jpeg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+
+
+.catimg6{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Sota.jpeg");
+    background-position: inherit;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+.btn-adopt{
+    border: 4px solid #055052;
+    color: whitesmoke;
+    background-color: #055052;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 #003638;
+    transition: ease 299ms;
+}
+.btn-adopt:hover{
+    box-shadow: inset 0 200px  200px 0 #003638;
+    font-weight: bold;
+}
+
+/* SECTION8 CATS */
+#container8{
+    height: 100vh;
+    padding: 10px;
+    background: rgb(236, 227, 217);
+}
+#container8 h1{
+    font-size: 3rem;
+    color: #003638;
+    
+}
+#container8 h3{
+    font-size: 1.5rem;
+    color: #003638;
+}
+#container8 p{
+    line-height: 1.4;
+}
+#container8 a{
+    text-decoration: none;
+
+}
+
+.catdiv7 ,.catdiv8{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #003638;
+    background-color: whitesmoke;
+    
+}
+
+
+.catinfo7, .catinfo8{
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    background-color: whitesmoke;
+}
+.catimg7 {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Shio.jpeg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+
+
+
+.catimg8{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/cats/Shichi.jpeg");
+    background-position: inherit;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+}
+.btn-adopt{
+    border: 4px solid #055052;
+    color: whitesmoke;
+    background-color: #055052;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 0 #003638;
+    transition: ease 299ms;
+}
+.btn-adopt:hover{
+    box-shadow: inset 0 200px  200px 0 #003638;
+    font-weight: bold;
+}
+.backtotop{
+    padding: 40px;
+    color: #003638;
+    transition: ease 1s;
+}
+.backtotop:hover{
+    font-weight: bold;
+    
+}
+
+
+
